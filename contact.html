@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ceylon Brew Cafe - Home</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">Ceylon <span>Brew</span></div>
+            <nav><ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+        </header>
+        <main>
+            <div class="contact">
+                <form action="#" method="post">
+                    <fieldset><legend>Reservation Details</legend>
+                        <lable for="name">Full Name*</lable><input type="text" id="name" required>
+                        <lable for="email">Email*</lable><input type="email" id="email" required>
+                        <lable for="phone">Phone</lable><input type="tel" id="phone">
+                        <lable for="drink">Preferred Drink</lable><select id="drink" name="drink"><option>Black Tea</option><option>Iced Americano</option><option>Mocha</option><option>Latte</option><option>Cappuccino</option><option>Espresso</option><option>Milk Tea</option>Oreo Milk Tea</option><option>Espresso</option></select>
+                        <p>Table Size:</p><div class="radio-group"><lable><input type="radio" name="size" value="small">Small</lable><lable><input type="radio" name="size" value="medium">Medium</lable><lable><input type="radio" name="size" value="large">Large</lable></div><br>
+                        <label for="msg">Message</label><textarea id="msg" name="msg" rows="4"></textarea><br><br>
+                        <div class="check"><label><input type="checkbox" name="subscribe"> Subscribe to newsletter</label></div><br>
+                        <button type="submit">Submit</button><br><br><button type="reset">Reset</button><br><br>
+                        <lable for="date">Visit Date</lable><input type="date" id="date"><br>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <footer><p>No.10, 1st Lane, Negombo. / Open: 7.30 AM - 8.30 PM</p><p>Ceylon Brew Cafe</p></footer>
+    </body>
+</html>    
